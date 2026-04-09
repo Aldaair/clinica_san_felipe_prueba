@@ -40,8 +40,10 @@ No es necesario crear manualmente un usuario administrador para ingresar a la ap
 
 El sistema ya incluye un seeder con las credenciales iniciales:
 
+```
 Usuario: Admin
 Contraseña: Admin123*
+```
 
 ---
 
@@ -49,7 +51,7 @@ Contraseña: Admin123*
 
 Ubícate en la carpeta raíz de la solución:
 
-clinica_san_felipe
+```clinica_san_felipe```
 
 Luego ejecuta los siguientes comandos:
 
@@ -75,6 +77,7 @@ Ejecuta el siguiente comando desde la raíz del proyecto:
 Si deseas detener RabbitMQ:
 
 ```docker compose -f docker-compose.rabbitmq.yml down```
+
 ---
 ## 5. Ejecutar los microservicios
 
@@ -142,6 +145,7 @@ Usar el token generado para probar los endpoints protegidos.
 
 El orden recomendado para levantar el sistema es el siguiente:
 
+```
 Crear las bases de datos.
 Ejecutar el script database/scripts/script.sql.
 Levantar RabbitMQ con Docker.
@@ -149,3 +153,4 @@ Restaurar y compilar la solución con dotnet restore y dotnet build.
 Levantar los microservicios.
 Levantar el frontend con npm run dev.
 Probar endpoints con la colección de Postman.
+```
