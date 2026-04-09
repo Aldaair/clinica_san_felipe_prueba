@@ -1,0 +1,512 @@
+{
+	"info": {
+		"_postman_id": "9cc9a847-eca8-4ca6-a188-e48d12be7a52",
+		"name": "Clínica San Felipe",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30377900"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"username\": \"admin\",\n  \"password\": \"Admin123*\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{AUTH_API_URL}}/api/Auth/login",
+							"host": [
+								"{{AUTH_API_URL}}"
+							],
+							"path": [
+								"api",
+								"Auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Products",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nombreProducto\": \"Paracetamol 500mg\",\n  \"nroLote\": \"LOT-001\",\n  \"costo\": 10.50,\n  \"precioVenta\": 14.18\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{PRODUCT_API_URL}}/api/products",
+							"host": [
+								"{{PRODUCT_API_URL}}"
+							],
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nombreProducto\": \"Paracetamol 500mg Caja\",\n  \"nroLote\": \"LOT-001-A\",\n  \"costo\": 11.00,\n  \"precioVenta\": 14.85\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{PRODUCT_API_URL}}/api/products/1",
+							"host": [
+								"{{PRODUCT_API_URL}}"
+							],
+							"path": [
+								"api",
+								"products",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Products",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nombreProducto\": \"Paracetamol 500mg\",\n  \"nroLote\": \"LOT-001\",\n  \"costo\": 10.50,\n  \"precioVenta\": 14.18\n}"
+						},
+						"url": {
+							"raw": "{{PRODUCT_API_URL}}/api/products",
+							"host": [
+								"{{PRODUCT_API_URL}}"
+							],
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Product",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{PRODUCT_API_URL}}/api/products/1",
+							"host": [
+								"{{PRODUCT_API_URL}}"
+							],
+							"path": [
+								"api",
+								"products",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Purchase",
+			"item": [
+				{
+					"name": "Purchases",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{PURCHASE_API_URL}}/api/purchases",
+							"host": [
+								"{{PURCHASE_API_URL}}"
+							],
+							"path": [
+								"api",
+								"purchases"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Purchase",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{PURCHASE_API_URL}}/api/purchases/1002",
+							"host": [
+								"{{PURCHASE_API_URL}}"
+							],
+							"path": [
+								"api",
+								"purchases",
+								"1002"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Orchestrator",
+			"item": [
+				{
+					"name": "Purchase",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"items\": [\n    {\n      \"idProducto\": 1,\n      \"cantidad\": 2,\n      \"precio\": 8.50\n    },\n    {\n      \"idProducto\": 2,\n      \"cantidad\": 5,\n      \"precio\": 12.00\n    }\n  ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{ORCHESTATOR_API_URL}}/api/purchasesagas",
+							"host": [
+								"{{ORCHESTATOR_API_URL}}"
+							],
+							"path": [
+								"api",
+								"purchasesagas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Sale",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"items\": [\n    /* {\n      \"idProducto\": 1,\n      \"cantidad\": 1\n    }, */\n    {\n      \"idProducto\": 2,\n      \"cantidad\": 1\n    }\n  ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{ORCHESTATOR_API_URL}}/api/salesagas",
+							"host": [
+								"{{ORCHESTATOR_API_URL}}"
+							],
+							"path": [
+								"api",
+								"salesagas"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Movements",
+			"item": [
+				{
+					"name": "Stocks",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{MOVEMENTS_API_URL}}/api/movements/stock",
+							"host": [
+								"{{MOVEMENTS_API_URL}}"
+							],
+							"path": [
+								"api",
+								"movements",
+								"stock"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Stock",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{MOVEMENTS_API_URL}}/api/movements/stock/1",
+							"host": [
+								"{{MOVEMENTS_API_URL}}"
+							],
+							"path": [
+								"api",
+								"movements",
+								"stock",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "History",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{MOVEMENTS_API_URL}}/api/movements/history/1",
+							"host": [
+								"{{MOVEMENTS_API_URL}}"
+							],
+							"path": [
+								"api",
+								"movements",
+								"history",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Kardex",
+			"item": [
+				{
+					"name": "Product & Stock",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{KARDEX_API_URL}}/api/kardex",
+							"host": [
+								"{{KARDEX_API_URL}}"
+							],
+							"path": [
+								"api",
+								"kardex"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "AUTH_API_URL",
+			"value": ""
+		},
+		{
+			"key": "PRODUCT_API_URL",
+			"value": ""
+		},
+		{
+			"key": "PURCHASE_API_URL",
+			"value": ""
+		},
+		{
+			"key": "ORCHESTATOR_API_URL",
+			"value": ""
+		},
+		{
+			"key": "MOVEMENTS_API_URL",
+			"value": ""
+		},
+		{
+			"key": "token",
+			"value": ""
+		},
+		{
+			"key": "SALES_API_URL",
+			"value": ""
+		},
+		{
+			"key": "KARDEX_API_URL",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
