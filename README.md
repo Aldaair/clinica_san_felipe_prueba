@@ -26,14 +26,15 @@ Primero, se deben crear las siguientes bases de datos en SQL Server:
 
 Una vez creadas, se debe ejecutar el script ubicado en la ruta:
 
-```bash
-database/scripts/script.sql
 
-Importante
+```database/scripts/script.sql ```
+
+**Importante**
 
 No es necesario preocuparse por ejecutar el script en una base de datos específica, ya que el propio script crea las tablas correspondientes para cada base de datos.
 
-2. Usuario administrador por defecto
+---
+## 2. Usuario administrador por defecto
 
 No es necesario crear manualmente un usuario administrador para ingresar a la aplicación web.
 
@@ -42,7 +43,9 @@ El sistema ya incluye un seeder con las credenciales iniciales:
 Usuario: Admin
 Contraseña: Admin123*
 
-3. Restaurar y compilar la solución
+---
+
+## 3. Restaurar y compilar la solución
 
 Ubícate en la carpeta raíz de la solución:
 
@@ -50,38 +53,44 @@ clinica_san_felipe
 
 Luego ejecuta los siguientes comandos:
 
+```
 dotnet restore
 dotnet build
+```
 
-4. Levantar RabbitMQ con Docker
+---
+
+## 4. Levantar RabbitMQ con Docker
 
 Para la comunicación entre microservicios, el sistema utiliza RabbitMQ.
 
 Se ha incluido el archivo:
 
-docker-compose.rabbitmq.yml
+```docker-compose.rabbitmq.yml```
 
 Ejecuta el siguiente comando desde la raíz del proyecto:
 
-docker compose -f docker-compose.rabbitmq.yml up -d
+```docker compose -f docker-compose.rabbitmq.yml up -d```
 
 Si deseas detener RabbitMQ:
 
-docker compose -f docker-compose.rabbitmq.yml down
-
-5. Ejecutar los microservicios
+```docker compose -f docker-compose.rabbitmq.yml down```
+---
+## 5. Ejecutar los microservicios
 
 Desde la carpeta raíz clinica_san_felipe, puedes ejecutar cada microservicio con el comando:
 
-dotnet run --project <ruta-del-proyecto-api>
+```dotnet run --project <ruta-del-proyecto-api>```
 
 Ejemplo para KardexQueryService:
 
-dotnet run --project src/Services/KardexQueryService/KardexQueryService.Api/KardexQueryService.Api.csproj
+```dotnet run --project src/Services/KardexQueryService/KardexQueryService.Api/KardexQueryService.Api.csproj```
 
 Repite el mismo procedimiento para cada microservicio, cambiando la ruta del proyecto correspondiente.
 
 Ejemplo general
+
+```
 dotnet run --project src/Services/AuthService/AuthService.Api/AuthService.Api.csproj
 dotnet run --project src/Services/ProductService/ProductService.Api/ProductService.Api.csproj
 dotnet run --project src/Services/PurchaseService/PurchaseService.Api/PurchaseService.Api.csproj
@@ -89,24 +98,32 @@ dotnet run --project src/Services/SalesService/SalesService.Api/SalesService.Api
 dotnet run --project src/Services/MovementService/MovementService.Api/MovementService.Api.csproj
 dotnet run --project src/Services/SagaOrchestratorService/SagaOrchestratorService.Api/SagaOrchestratorService.Api.csproj
 dotnet run --project src/Services/KardexQueryService/KardexQueryService.Api/KardexQuerySe
-
-6. Ejecutar el frontend
+```
+---
+## 6. Ejecutar el frontend
 
 El frontend fue desarrollado en React y se encuentra dentro de la carpeta:
 
-/frontend
+```/frontend```
 
 Desde la raíz del proyecto, ingresa a esa carpeta:
 
-cd frontend
+```cd frontend```
 
 Luego ejecuta:
 
+```
 npm install
 npm run dev
-7. Pruebas de endpoints con Postman
+```
+---
+### 7. Pruebas de endpoints con Postman
 
 Se adjunta una colección de Postman para facilitar las pruebas de los endpoints.
+
+Importar la collection que está en:
+
+``` /postman/Clínica San Felipe.postman_collection.json ```
 
 La colección ya contempla variables para:
 
@@ -119,7 +136,9 @@ Importar la colección en Postman.
 Configurar las variables de entorno según los puertos o URLs locales de cada microservicio.
 Autenticarse con el usuario administrador por defecto.
 Usar el token generado para probar los endpoints protegidos.
-8. Flujo recomendado de ejecución
+---
+
+## 8. Flujo recomendado de ejecución
 
 El orden recomendado para levantar el sistema es el siguiente:
 
