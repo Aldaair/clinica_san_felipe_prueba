@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProductService.Api</name>
+    </assembly>
+    <members>
+        <member name="M:ProductService.Api.Controllers.ProductsController.Create(ProductService.Application.Products.DTOs.CreateProductRequest,System.Threading.CancellationToken)">
+            <summary>
+            Registra un nuevo producto en el sistema.
+            </summary>
+            <param name="request">Datos necesarios para crear el producto.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna la información del producto creado.
+            </returns>
+            <response code="201">Producto creado correctamente.</response>
+            <response code="400">La solicitud es inválida o el modelo enviado no cumple las validaciones.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:ProductService.Api.Controllers.ProductsController.Update(System.Int32,ProductService.Application.Products.DTOs.UpdateProductRequest,System.Threading.CancellationToken)">
+            <summary>
+            Actualiza la información de un producto existente.
+            </summary>
+            <param name="id">Identificador único del producto.</param>
+            <param name="request">Datos actualizados del producto.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna la información actualizada del producto.
+            </returns>
+            <response code="200">Producto actualizado correctamente.</response>
+            <response code="400">La solicitud es inválida o el modelo enviado no cumple las validaciones.</response>
+            <response code="404">No se encontró un producto con el identificador proporcionado.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:ProductService.Api.Controllers.ProductsController.GetAll(System.Threading.CancellationToken)">
+            <summary>
+            Obtiene la lista de todos los productos registrados.
+            </summary>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna una colección con todos los productos registrados.
+            </returns>
+            <response code="200">Listado de productos obtenido correctamente.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:ProductService.Api.Controllers.ProductsController.GetById(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Obtiene el detalle de un producto mediante su identificador.
+            </summary>
+            <param name="id">Identificador único del producto.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna la información del producto solicitado.
+            </returns>
+            <response code="200">Producto encontrado correctamente.</response>
+            <response code="404">No se encontró un producto con el identificador proporcionado.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:ProductService.Api.Controllers.ProductsController.PurchaseBatchUpdate(ProductService.Application.Products.DTOs.Saga.ProductPurchaseBatchUpdateRequest,System.Threading.CancellationToken)">
+            <summary>
+            Actualiza en lote el stock de productos como parte del proceso de compra.
+            </summary>
+            <param name="request">Datos del lote de productos a actualizar.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna el resultado de la actualización en lote de productos.
+            </returns>
+            <response code="200">Actualización en lote realizada correctamente.</response>
+            <response code="400">La solicitud es inválida o el modelo enviado no cumple las validaciones.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:ProductService.Api.Controllers.ProductsController.PurchaseBatchUpdateRollback(ProductService.Application.Products.DTOs.Saga.ProductPurchaseBatchRollbackRequest,System.Threading.CancellationToken)">
+            <summary>
+            Revierte una actualización en lote de productos realizada durante el proceso de compra.
+            </summary>
+            <param name="request">Datos necesarios para revertir la actualización en lote.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna el resultado del rollback de la actualización en lote.
+            </returns>
+            <response code="200">Rollback de actualización en lote realizado correctamente.</response>
+            <response code="400">La solicitud es inválida o el modelo enviado no cumple las validaciones.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+    </members>
+</doc>

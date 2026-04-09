@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wjw2uroi2R+5oz2y53EZoXYcfvb/55u4uzJ+UVXFQsI=",
+  "Source": "KardexQueryService.Api",
+  "BasePath": "_content/KardexQueryService.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

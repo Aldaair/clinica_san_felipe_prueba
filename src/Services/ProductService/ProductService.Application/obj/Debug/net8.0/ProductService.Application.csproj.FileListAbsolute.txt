@@ -1,0 +1,17 @@
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/ProductService/ProductService.Application/bin/Debug/net8.0/ProductService.Application.deps.json
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/ProductService/ProductService.Application/bin/Debug/net8.0/ProductService.Application.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/ProductService/ProductService.Application/bin/Debug/net8.0/ProductService.Application.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/ProductService/ProductService.Application/bin/Debug/net8.0/ProductService.Domain.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/ProductService/ProductService.Application/bin/Debug/net8.0/ProductService.Domain.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/ProductService/ProductService.Application/obj/Debug/net8.0/ProductService.Application.csproj.AssemblyReference.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/ProductService/ProductService.Application/obj/Debug/net8.0/ProductService.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/ProductService/ProductService.Application/obj/Debug/net8.0/ProductService.Application.AssemblyInfoInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/ProductService/ProductService.Application/obj/Debug/net8.0/ProductService.Application.AssemblyInfo.cs
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/ProductService/ProductService.Application/obj/Debug/net8.0/ProductService.Application.csproj.CoreCompileInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/ProductService/ProductService.Application/obj/Debug/net8.0/ProductS.46A6959E.Up2Date
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/ProductService/ProductService.Application/obj/Debug/net8.0/ProductService.Application.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/ProductService/ProductService.Application/obj/Debug/net8.0/refint/ProductService.Application.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/ProductService/ProductService.Application/obj/Debug/net8.0/ProductService.Application.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/ProductService/ProductService.Application/obj/Debug/net8.0/ref/ProductService.Application.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/ProductService/ProductService.Application/bin/Debug/net8.0/SanFelipe.IntegrationEvents.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/ProductService/ProductService.Application/bin/Debug/net8.0/SanFelipe.IntegrationEvents.pdb

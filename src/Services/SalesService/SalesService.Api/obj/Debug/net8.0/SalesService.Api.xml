@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SalesService.Api</name>
+    </assembly>
+    <members>
+        <member name="M:SalesService.Api.Controllers.ProductPricingSnapshotsController.Upsert(SalesService.Application.Sales.DTOs.ProductPricingSnapshotUpsertRequest,System.Threading.CancellationToken)">
+            <summary>
+            Crea o actualiza el snapshot de precios de productos utilizado por el servicio de ventas.
+            </summary>
+            <param name="request">Datos del snapshot de precios a registrar o actualizar.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna un mensaje de confirmación cuando el snapshot es actualizado correctamente.
+            </returns>
+            <response code="200">Snapshot actualizado correctamente.</response>
+            <response code="400">La solicitud es inválida o el modelo enviado no cumple las validaciones.</response>
+            <response code="401">No autorizado. El token es inválido o no fue enviado.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:SalesService.Api.Controllers.SalesController.Create(SalesService.Application.Sales.DTOs.CreateSaleRequest,System.Threading.CancellationToken)">
+            <summary>
+            Registra una nueva venta en el sistema.
+            </summary>
+            <param name="request">Datos necesarios para registrar la venta.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna la información de la venta creada.
+            </returns>
+            <response code="201">Venta registrada correctamente.</response>
+            <response code="400">La solicitud es inválida o el modelo enviado no cumple las validaciones.</response>
+            <response code="401">No autorizado. El token es inválido o no fue enviado.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:SalesService.Api.Controllers.SalesController.Cancel(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Cancela una venta registrada previamente.
+            </summary>
+            <param name="id">Identificador único de la venta.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna la información de la venta actualizada con el estado de cancelación.
+            </returns>
+            <response code="200">Venta cancelada correctamente.</response>
+            <response code="401">No autorizado. El token es inválido o no fue enviado.</response>
+            <response code="404">No se encontró una venta con el identificador proporcionado.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:SalesService.Api.Controllers.SalesController.GetAll(System.Threading.CancellationToken)">
+            <summary>
+            Obtiene la lista de todas las ventas registradas.
+            </summary>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna una colección con todas las ventas registradas.
+            </returns>
+            <response code="200">Listado de ventas obtenido correctamente.</response>
+            <response code="401">No autorizado. El token es inválido o no fue enviado.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:SalesService.Api.Controllers.SalesController.GetById(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Obtiene el detalle de una venta mediante su identificador.
+            </summary>
+            <param name="id">Identificador único de la venta.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna la información de la venta solicitada.
+            </returns>
+            <response code="200">Venta encontrada correctamente.</response>
+            <response code="401">No autorizado. El token es inválido o no fue enviado.</response>
+            <response code="404">No se encontró una venta con el identificador proporcionado.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,11 @@
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Domain/bin/Debug/net8.0/MovementService.Domain.deps.json
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Domain/bin/Debug/net8.0/MovementService.Domain.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Domain/bin/Debug/net8.0/MovementService.Domain.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Domain/obj/Debug/net8.0/MovementService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Domain/obj/Debug/net8.0/MovementService.Domain.AssemblyInfoInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Domain/obj/Debug/net8.0/MovementService.Domain.AssemblyInfo.cs
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Domain/obj/Debug/net8.0/MovementService.Domain.csproj.CoreCompileInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Domain/obj/Debug/net8.0/MovementService.Domain.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Domain/obj/Debug/net8.0/refint/MovementService.Domain.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Domain/obj/Debug/net8.0/MovementService.Domain.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Domain/obj/Debug/net8.0/ref/MovementService.Domain.dll

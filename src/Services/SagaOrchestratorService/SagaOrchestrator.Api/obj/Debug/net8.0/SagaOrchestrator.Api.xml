@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SagaOrchestrator.Api</name>
+    </assembly>
+    <members>
+        <member name="M:SagaOrchestrator.Api.Controllers.PurchaseSagasController.Create(SagaOrchestrator.Application.Sagas.DTOs.CreatePurchaseSagaRequest,System.Threading.CancellationToken)">
+            <summary>
+            Inicia una nueva compra para coordinar el flujo distribuido del proceso de compra.
+            </summary>
+            <param name="request">Datos necesarios para iniciar la compra.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna la información de la saga creada, incluyendo su estado inicial.
+            </returns>
+            <response code="201">compra creada correctamente.</response>
+            <response code="400">La solicitud es inválida o el modelo enviado no cumple las validaciones.</response>
+            <response code="500">Ocurrió un error interno durante la compra.</response>
+        </member>
+        <member name="M:SagaOrchestrator.Api.Controllers.PurchaseSagasController.GetById(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Obtiene el detalle de compra mediante su identificador.
+            </summary>
+            <param name="id">Identificador único de la compra.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna la información y el estado actual de la compra.
+            </returns>
+            <response code="200">Compra encontrada correctamente.</response>
+            <response code="404">No se encontró una compra con el identificador proporcionado.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:SagaOrchestrator.Api.Controllers.SaleSagasController.Create(SagaOrchestrator.Application.Sagas.DTOs.CreateSaleSagaRequest,System.Threading.CancellationToken)">
+            <summary>
+            Inicia una nueva venta.
+            </summary>
+            <param name="request">Datos necesarios para iniciar la venta.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna la información de la venta creada, incluyendo su estado inicial.
+            </returns>
+            <response code="201">Venta creada correctamente.</response>
+            <response code="400">La solicitud es inválida o el modelo enviado no cumple las validaciones.</response>
+            <response code="500">Ocurrió un error interno durante la creación de la venta.</response>
+        </member>
+        <member name="M:SagaOrchestrator.Api.Controllers.SaleSagasController.GetById(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Obtiene el detalle de una venta mediante su identificador.
+            </summary>
+            <param name="id">Identificador único de la saga de venta.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna la información y el estado actual de la saga de venta.
+            </returns>
+            <response code="200">Saga de venta encontrada correctamente.</response>
+            <response code="404">No se encontró una saga de venta con el identificador proporcionado.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+    </members>
+</doc>

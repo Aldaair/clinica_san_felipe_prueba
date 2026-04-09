@@ -1,0 +1,11 @@
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Domain/bin/Debug/net8.0/PurchaseService.Domain.deps.json
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Domain/bin/Debug/net8.0/PurchaseService.Domain.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Domain/bin/Debug/net8.0/PurchaseService.Domain.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Domain/obj/Debug/net8.0/PurchaseService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Domain/obj/Debug/net8.0/PurchaseService.Domain.AssemblyInfoInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Domain/obj/Debug/net8.0/PurchaseService.Domain.AssemblyInfo.cs
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Domain/obj/Debug/net8.0/PurchaseService.Domain.csproj.CoreCompileInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Domain/obj/Debug/net8.0/PurchaseService.Domain.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Domain/obj/Debug/net8.0/refint/PurchaseService.Domain.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Domain/obj/Debug/net8.0/PurchaseService.Domain.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Domain/obj/Debug/net8.0/ref/PurchaseService.Domain.dll

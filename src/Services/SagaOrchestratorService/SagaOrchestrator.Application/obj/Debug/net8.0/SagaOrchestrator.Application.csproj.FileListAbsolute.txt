@@ -1,0 +1,15 @@
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Application/bin/Debug/net8.0/SagaOrchestrator.Application.deps.json
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Application/bin/Debug/net8.0/SagaOrchestrator.Application.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Application/bin/Debug/net8.0/SagaOrchestrator.Application.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Application/bin/Debug/net8.0/SagaOrchestrator.Domain.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Application/bin/Debug/net8.0/SagaOrchestrator.Domain.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Application/obj/Debug/net8.0/SagaOrchestrator.Application.csproj.AssemblyReference.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Application/obj/Debug/net8.0/SagaOrchestrator.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Application/obj/Debug/net8.0/SagaOrchestrator.Application.AssemblyInfoInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Application/obj/Debug/net8.0/SagaOrchestrator.Application.AssemblyInfo.cs
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Application/obj/Debug/net8.0/SagaOrchestrator.Application.csproj.CoreCompileInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Application/obj/Debug/net8.0/SagaOrch.542FDAA8.Up2Date
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Application/obj/Debug/net8.0/SagaOrchestrator.Application.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Application/obj/Debug/net8.0/refint/SagaOrchestrator.Application.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Application/obj/Debug/net8.0/SagaOrchestrator.Application.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Application/obj/Debug/net8.0/ref/SagaOrchestrator.Application.dll

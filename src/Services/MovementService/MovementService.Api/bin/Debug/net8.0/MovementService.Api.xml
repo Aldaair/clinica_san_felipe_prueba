@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MovementService.Api</name>
+    </assembly>
+    <members>
+        <member name="M:MovementService.Api.Controllers.MovementsController.RegisterEntry(MovementService.Application.Movements.DTOs.MovementEntryRequest,System.Threading.CancellationToken)">
+            <summary>
+            Registra un movimiento de entrada de stock en el inventario.
+            </summary>
+            <param name="request">Datos necesarios para registrar la entrada de stock.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna la información del movimiento registrado.
+            </returns>
+            <response code="200">Movimiento de entrada registrado correctamente.</response>
+            <response code="400">La solicitud es inválida o el modelo enviado no cumple las validaciones.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:MovementService.Api.Controllers.MovementsController.ReverseEntry(MovementService.Application.Movements.DTOs.MovementReverseEntryRequest,System.Threading.CancellationToken)">
+            <summary>
+            Revierte un movimiento de entrada de stock previamente registrado.
+            </summary>
+            <param name="request">Datos necesarios para revertir la entrada de stock.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna la información del movimiento revertido.
+            </returns>
+            <response code="200">Movimiento de entrada revertido correctamente.</response>
+            <response code="400">La solicitud es inválida o el modelo enviado no cumple las validaciones.</response>
+            <response code="404">No se encontró el movimiento de entrada a revertir.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:MovementService.Api.Controllers.MovementsController.RegisterExit(MovementService.Application.Movements.DTOs.MovementExitRequest,System.Threading.CancellationToken)">
+            <summary>
+            Registra un movimiento de salida de stock en el inventario.
+            </summary>
+            <param name="request">Datos necesarios para registrar la salida de stock.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna la información del movimiento registrado.
+            </returns>
+            <response code="200">Movimiento de salida registrado correctamente.</response>
+            <response code="400">La solicitud es inválida o el modelo enviado no cumple las validaciones.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:MovementService.Api.Controllers.MovementsController.GetCurrentStock(System.Threading.CancellationToken)">
+            <summary>
+            Obtiene el stock actual de todos los productos registrados.
+            </summary>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna una colección con el stock actual de todos los productos.
+            </returns>
+            <response code="200">Stock actual obtenido correctamente.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:MovementService.Api.Controllers.MovementsController.GetStockByProductId(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Obtiene el stock actual de un producto específico.
+            </summary>
+            <param name="productId">Identificador único del producto.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna el stock actual del producto solicitado.
+            </returns>
+            <response code="200">Stock del producto obtenido correctamente.</response>
+            <response code="404">No se encontró el producto solicitado o no tiene stock registrado.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:MovementService.Api.Controllers.MovementsController.GetHistoryByProductId(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Obtiene el historial de movimientos de un producto específico.
+            </summary>
+            <param name="productId">Identificador único del producto.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna la lista de movimientos asociados al producto.
+            </returns>
+            <response code="200">Historial de movimientos obtenido correctamente.</response>
+            <response code="404">No se encontró el producto solicitado o no tiene historial registrado.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:MovementService.Api.Controllers.MovementsController.ReverseExit(MovementService.Application.Movements.DTOs.MovementReverseExitRequest,System.Threading.CancellationToken)">
+            <summary>
+            Revierte un movimiento de salida de stock previamente registrado.
+            </summary>
+            <param name="request">Datos necesarios para revertir la salida de stock.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna la información del movimiento revertido.
+            </returns>
+            <response code="200">Movimiento de salida revertido correctamente.</response>
+            <response code="400">La solicitud es inválida o el modelo enviado no cumple las validaciones.</response>
+            <response code="404">No se encontró el movimiento de salida a revertir.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+    </members>
+</doc>

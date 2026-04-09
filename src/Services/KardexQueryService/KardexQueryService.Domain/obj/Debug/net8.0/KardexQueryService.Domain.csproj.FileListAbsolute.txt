@@ -1,0 +1,11 @@
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Domain/bin/Debug/net8.0/KardexQueryService.Domain.deps.json
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Domain/bin/Debug/net8.0/KardexQueryService.Domain.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Domain/bin/Debug/net8.0/KardexQueryService.Domain.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Domain/obj/Debug/net8.0/KardexQueryService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Domain/obj/Debug/net8.0/KardexQueryService.Domain.AssemblyInfoInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Domain/obj/Debug/net8.0/KardexQueryService.Domain.AssemblyInfo.cs
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Domain/obj/Debug/net8.0/KardexQueryService.Domain.csproj.CoreCompileInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Domain/obj/Debug/net8.0/KardexQueryService.Domain.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Domain/obj/Debug/net8.0/refint/KardexQueryService.Domain.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Domain/obj/Debug/net8.0/KardexQueryService.Domain.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Domain/obj/Debug/net8.0/ref/KardexQueryService.Domain.dll

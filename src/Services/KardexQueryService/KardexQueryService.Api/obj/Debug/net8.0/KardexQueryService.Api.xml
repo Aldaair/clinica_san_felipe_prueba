@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KardexQueryService.Api</name>
+    </assembly>
+    <members>
+        <member name="M:KardexQueryService.Api.Controllers.KardexController.GetKardex(System.Threading.CancellationToken)">
+            <summary>
+            Obtiene el kardex general de productos.
+            </summary>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna la lista del kardex con la información consolidada de inventario por producto.
+            </returns>
+            <response code="200">Kardex obtenido correctamente.</response>
+            <response code="401">No autorizado. El token es inválido o no fue enviado.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:KardexQueryService.Api.Controllers.KardexController.GetMovementsByProductId(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Obtiene el detalle de movimientos de un producto específico en el kardex.
+            </summary>
+            <param name="productId">Identificador único del producto.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna la lista de movimientos asociados al producto solicitado.
+            </returns>
+            <response code="200">Movimientos del producto obtenidos correctamente.</response>
+            <response code="401">No autorizado. El token es inválido o no fue enviado.</response>
+            <response code="404">No se encontró información de movimientos para el producto indicado.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+    </members>
+</doc>

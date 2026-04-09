@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "KardexQueryService.Application/1.0.0": {
+        "dependencies": {
+          "KardexQueryService.Domain": "1.0.0"
+        },
+        "runtime": {
+          "KardexQueryService.Application.dll": {}
+        }
+      },
+      "KardexQueryService.Domain/1.0.0": {
+        "runtime": {
+          "KardexQueryService.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KardexQueryService.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KardexQueryService.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

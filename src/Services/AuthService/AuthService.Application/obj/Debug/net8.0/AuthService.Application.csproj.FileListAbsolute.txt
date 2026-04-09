@@ -1,0 +1,15 @@
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/AuthService/AuthService.Application/bin/Debug/net8.0/AuthService.Application.deps.json
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/AuthService/AuthService.Application/bin/Debug/net8.0/AuthService.Application.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/AuthService/AuthService.Application/bin/Debug/net8.0/AuthService.Application.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/AuthService/AuthService.Application/bin/Debug/net8.0/AuthService.Domain.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/AuthService/AuthService.Application/bin/Debug/net8.0/AuthService.Domain.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/AuthService/AuthService.Application/obj/Debug/net8.0/AuthService.Application.csproj.AssemblyReference.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/AuthService/AuthService.Application/obj/Debug/net8.0/AuthService.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/AuthService/AuthService.Application/obj/Debug/net8.0/AuthService.Application.AssemblyInfoInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/AuthService/AuthService.Application/obj/Debug/net8.0/AuthService.Application.AssemblyInfo.cs
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/AuthService/AuthService.Application/obj/Debug/net8.0/AuthService.Application.csproj.CoreCompileInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/AuthService/AuthService.Application/obj/Debug/net8.0/AuthServ.67992DEE.Up2Date
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/AuthService/AuthService.Application/obj/Debug/net8.0/AuthService.Application.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/AuthService/AuthService.Application/obj/Debug/net8.0/refint/AuthService.Application.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/AuthService/AuthService.Application/obj/Debug/net8.0/AuthService.Application.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/AuthService/AuthService.Application/obj/Debug/net8.0/ref/AuthService.Application.dll

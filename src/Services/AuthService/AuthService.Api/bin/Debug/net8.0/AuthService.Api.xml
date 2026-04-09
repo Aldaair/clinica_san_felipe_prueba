@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AuthService.Api</name>
+    </assembly>
+    <members>
+        <member name="M:AuthService.Api.Controllers.AuthController.Login(AuthService.Application.Auth.DTOs.LoginRequest,System.Threading.CancellationToken)">
+            <summary>
+            Autentica a un usuario y devuelve un token JWT si las credenciales son válidas.
+            </summary>
+            <param name="request">Credenciales de acceso del usuario.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna <see cref="T:AuthService.Application.Auth.DTOs.LoginResponse"/> con el token de autenticación y los datos básicos del usuario.
+            </returns>
+            <response code="200">Inicio de sesión exitoso.</response>
+            <response code="400">La solicitud es inválida o el modelo enviado no cumple las validaciones.</response>
+            <response code="401">Credenciales inválidas.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:AuthService.Api.Controllers.AuthController.Me">
+            <summary>
+            Obtiene la información del usuario autenticado actual.
+            </summary>
+            <returns>
+            Retorna los datos del usuario autenticado a partir del token enviado en la solicitud.
+            </returns>
+            <response code="200">Información del usuario obtenida correctamente.</response>
+            <response code="401">El usuario no está autenticado o el token no es válido.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+    </members>
+</doc>

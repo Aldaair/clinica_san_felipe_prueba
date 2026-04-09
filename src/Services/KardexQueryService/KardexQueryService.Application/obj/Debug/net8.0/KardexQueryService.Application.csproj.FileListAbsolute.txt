@@ -1,0 +1,15 @@
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Application/bin/Debug/net8.0/KardexQueryService.Application.deps.json
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Application/bin/Debug/net8.0/KardexQueryService.Application.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Application/bin/Debug/net8.0/KardexQueryService.Application.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Application/bin/Debug/net8.0/KardexQueryService.Domain.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Application/bin/Debug/net8.0/KardexQueryService.Domain.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Application/obj/Debug/net8.0/KardexQueryService.Application.csproj.AssemblyReference.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Application/obj/Debug/net8.0/KardexQueryService.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Application/obj/Debug/net8.0/KardexQueryService.Application.AssemblyInfoInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Application/obj/Debug/net8.0/KardexQueryService.Application.AssemblyInfo.cs
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Application/obj/Debug/net8.0/KardexQueryService.Application.csproj.CoreCompileInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Application/obj/Debug/net8.0/KardexQu.396E6B8A.Up2Date
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Application/obj/Debug/net8.0/KardexQueryService.Application.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Application/obj/Debug/net8.0/refint/KardexQueryService.Application.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Application/obj/Debug/net8.0/KardexQueryService.Application.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Application/obj/Debug/net8.0/ref/KardexQueryService.Application.dll

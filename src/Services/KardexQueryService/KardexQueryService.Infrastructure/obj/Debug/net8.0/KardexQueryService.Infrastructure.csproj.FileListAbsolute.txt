@@ -1,0 +1,17 @@
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Infrastructure/bin/Debug/net8.0/KardexQueryService.Infrastructure.deps.json
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Infrastructure/bin/Debug/net8.0/KardexQueryService.Infrastructure.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Infrastructure/bin/Debug/net8.0/KardexQueryService.Infrastructure.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Infrastructure/bin/Debug/net8.0/KardexQueryService.Application.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Infrastructure/bin/Debug/net8.0/KardexQueryService.Domain.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Infrastructure/bin/Debug/net8.0/KardexQueryService.Application.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Infrastructure/bin/Debug/net8.0/KardexQueryService.Domain.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Infrastructure/obj/Debug/net8.0/KardexQueryService.Infrastructure.csproj.AssemblyReference.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Infrastructure/obj/Debug/net8.0/KardexQueryService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Infrastructure/obj/Debug/net8.0/KardexQueryService.Infrastructure.AssemblyInfoInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Infrastructure/obj/Debug/net8.0/KardexQueryService.Infrastructure.AssemblyInfo.cs
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Infrastructure/obj/Debug/net8.0/KardexQueryService.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Infrastructure/obj/Debug/net8.0/KardexQu.F974EB89.Up2Date
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Infrastructure/obj/Debug/net8.0/KardexQueryService.Infrastructure.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Infrastructure/obj/Debug/net8.0/refint/KardexQueryService.Infrastructure.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Infrastructure/obj/Debug/net8.0/KardexQueryService.Infrastructure.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Infrastructure/obj/Debug/net8.0/ref/KardexQueryService.Infrastructure.dll

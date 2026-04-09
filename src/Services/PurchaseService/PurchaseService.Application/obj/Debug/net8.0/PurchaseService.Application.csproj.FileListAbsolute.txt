@@ -1,0 +1,15 @@
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Application/bin/Debug/net8.0/PurchaseService.Application.deps.json
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Application/bin/Debug/net8.0/PurchaseService.Application.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Application/bin/Debug/net8.0/PurchaseService.Application.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Application/bin/Debug/net8.0/PurchaseService.Domain.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Application/bin/Debug/net8.0/PurchaseService.Domain.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Application/obj/Debug/net8.0/PurchaseService.Application.csproj.AssemblyReference.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Application/obj/Debug/net8.0/PurchaseService.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Application/obj/Debug/net8.0/PurchaseService.Application.AssemblyInfoInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Application/obj/Debug/net8.0/PurchaseService.Application.AssemblyInfo.cs
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Application/obj/Debug/net8.0/PurchaseService.Application.csproj.CoreCompileInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Application/obj/Debug/net8.0/Purchase.8AE8D640.Up2Date
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Application/obj/Debug/net8.0/PurchaseService.Application.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Application/obj/Debug/net8.0/refint/PurchaseService.Application.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Application/obj/Debug/net8.0/PurchaseService.Application.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/PurchaseService/PurchaseService.Application/obj/Debug/net8.0/ref/PurchaseService.Application.dll

@@ -1,0 +1,15 @@
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Application/bin/Debug/net8.0/MovementService.Application.deps.json
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Application/bin/Debug/net8.0/MovementService.Application.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Application/bin/Debug/net8.0/MovementService.Application.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Application/bin/Debug/net8.0/MovementService.Domain.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Application/bin/Debug/net8.0/MovementService.Domain.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Application/obj/Debug/net8.0/MovementService.Application.csproj.AssemblyReference.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Application/obj/Debug/net8.0/MovementService.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Application/obj/Debug/net8.0/MovementService.Application.AssemblyInfoInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Application/obj/Debug/net8.0/MovementService.Application.AssemblyInfo.cs
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Application/obj/Debug/net8.0/MovementService.Application.csproj.CoreCompileInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Application/obj/Debug/net8.0/Movement.7C2A5992.Up2Date
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Application/obj/Debug/net8.0/MovementService.Application.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Application/obj/Debug/net8.0/refint/MovementService.Application.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Application/obj/Debug/net8.0/MovementService.Application.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/MovementService/MovementService.Application/obj/Debug/net8.0/ref/MovementService.Application.dll

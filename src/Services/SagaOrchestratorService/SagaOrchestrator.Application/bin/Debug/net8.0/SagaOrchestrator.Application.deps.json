@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SagaOrchestrator.Application/1.0.0": {
+        "dependencies": {
+          "SagaOrchestrator.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SagaOrchestrator.Application.dll": {}
+        }
+      },
+      "SagaOrchestrator.Domain/1.0.0": {
+        "runtime": {
+          "SagaOrchestrator.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SagaOrchestrator.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SagaOrchestrator.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

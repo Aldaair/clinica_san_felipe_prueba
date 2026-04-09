@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Z8D5K9RpDpl8huAKV91K2ndANVfFv2HUwVsiMx1hEoo=",
+  "Source": "MovementService.Api",
+  "BasePath": "_content/MovementService.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

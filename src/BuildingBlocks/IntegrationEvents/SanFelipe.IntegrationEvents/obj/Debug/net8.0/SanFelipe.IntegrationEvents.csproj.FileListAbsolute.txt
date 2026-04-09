@@ -1,0 +1,11 @@
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/BuildingBlocks/IntegrationEvents/SanFelipe.IntegrationEvents/bin/Debug/net8.0/SanFelipe.IntegrationEvents.deps.json
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/BuildingBlocks/IntegrationEvents/SanFelipe.IntegrationEvents/bin/Debug/net8.0/SanFelipe.IntegrationEvents.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/BuildingBlocks/IntegrationEvents/SanFelipe.IntegrationEvents/bin/Debug/net8.0/SanFelipe.IntegrationEvents.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/BuildingBlocks/IntegrationEvents/SanFelipe.IntegrationEvents/obj/Debug/net8.0/SanFelipe.IntegrationEvents.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/BuildingBlocks/IntegrationEvents/SanFelipe.IntegrationEvents/obj/Debug/net8.0/SanFelipe.IntegrationEvents.AssemblyInfoInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/BuildingBlocks/IntegrationEvents/SanFelipe.IntegrationEvents/obj/Debug/net8.0/SanFelipe.IntegrationEvents.AssemblyInfo.cs
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/BuildingBlocks/IntegrationEvents/SanFelipe.IntegrationEvents/obj/Debug/net8.0/SanFelipe.IntegrationEvents.csproj.CoreCompileInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/BuildingBlocks/IntegrationEvents/SanFelipe.IntegrationEvents/obj/Debug/net8.0/SanFelipe.IntegrationEvents.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/BuildingBlocks/IntegrationEvents/SanFelipe.IntegrationEvents/obj/Debug/net8.0/refint/SanFelipe.IntegrationEvents.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/BuildingBlocks/IntegrationEvents/SanFelipe.IntegrationEvents/obj/Debug/net8.0/SanFelipe.IntegrationEvents.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/BuildingBlocks/IntegrationEvents/SanFelipe.IntegrationEvents/obj/Debug/net8.0/ref/SanFelipe.IntegrationEvents.dll

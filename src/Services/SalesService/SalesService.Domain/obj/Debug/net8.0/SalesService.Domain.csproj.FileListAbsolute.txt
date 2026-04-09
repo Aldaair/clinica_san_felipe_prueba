@@ -1,0 +1,11 @@
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Domain/bin/Debug/net8.0/SalesService.Domain.deps.json
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Domain/bin/Debug/net8.0/SalesService.Domain.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Domain/bin/Debug/net8.0/SalesService.Domain.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Domain/obj/Debug/net8.0/SalesService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Domain/obj/Debug/net8.0/SalesService.Domain.AssemblyInfoInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Domain/obj/Debug/net8.0/SalesService.Domain.AssemblyInfo.cs
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Domain/obj/Debug/net8.0/SalesService.Domain.csproj.CoreCompileInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Domain/obj/Debug/net8.0/SalesService.Domain.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Domain/obj/Debug/net8.0/refint/SalesService.Domain.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Domain/obj/Debug/net8.0/SalesService.Domain.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Domain/obj/Debug/net8.0/ref/SalesService.Domain.dll

@@ -1,0 +1,282 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Infrastructure/SalesService.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/BuildingBlocks/IntegrationEvents/SanFelipe.IntegrationEvents/SanFelipe.IntegrationEvents.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/BuildingBlocks/IntegrationEvents/SanFelipe.IntegrationEvents/SanFelipe.IntegrationEvents.csproj",
+        "projectName": "SanFelipe.IntegrationEvents",
+        "projectPath": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/BuildingBlocks/IntegrationEvents/SanFelipe.IntegrationEvents/SanFelipe.IntegrationEvents.csproj",
+        "packagesPath": "/Users/aldair/.nuget/packages/",
+        "outputPath": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/BuildingBlocks/IntegrationEvents/SanFelipe.IntegrationEvents/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aldair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Application/SalesService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Application/SalesService.Application.csproj",
+        "projectName": "SalesService.Application",
+        "projectPath": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Application/SalesService.Application.csproj",
+        "packagesPath": "/Users/aldair/.nuget/packages/",
+        "outputPath": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aldair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Domain/SalesService.Domain.csproj": {
+                "projectPath": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Domain/SalesService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Domain/SalesService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Domain/SalesService.Domain.csproj",
+        "projectName": "SalesService.Domain",
+        "projectPath": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Domain/SalesService.Domain.csproj",
+        "packagesPath": "/Users/aldair/.nuget/packages/",
+        "outputPath": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aldair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Infrastructure/SalesService.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Infrastructure/SalesService.Infrastructure.csproj",
+        "projectName": "SalesService.Infrastructure",
+        "projectPath": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Infrastructure/SalesService.Infrastructure.csproj",
+        "packagesPath": "/Users/aldair/.nuget/packages/",
+        "outputPath": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aldair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/BuildingBlocks/IntegrationEvents/SanFelipe.IntegrationEvents/SanFelipe.IntegrationEvents.csproj": {
+                "projectPath": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/BuildingBlocks/IntegrationEvents/SanFelipe.IntegrationEvents/SanFelipe.IntegrationEvents.csproj"
+              },
+              "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Application/SalesService.Application.csproj": {
+                "projectPath": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Application/SalesService.Application.csproj"
+              },
+              "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Domain/SalesService.Domain.csproj": {
+                "projectPath": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Domain/SalesService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

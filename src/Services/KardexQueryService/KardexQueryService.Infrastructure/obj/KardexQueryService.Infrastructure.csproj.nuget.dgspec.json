@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Infrastructure/KardexQueryService.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Application/KardexQueryService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Application/KardexQueryService.Application.csproj",
+        "projectName": "KardexQueryService.Application",
+        "projectPath": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Application/KardexQueryService.Application.csproj",
+        "packagesPath": "/Users/aldair/.nuget/packages/",
+        "outputPath": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aldair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Domain/KardexQueryService.Domain.csproj": {
+                "projectPath": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Domain/KardexQueryService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Domain/KardexQueryService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Domain/KardexQueryService.Domain.csproj",
+        "projectName": "KardexQueryService.Domain",
+        "projectPath": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Domain/KardexQueryService.Domain.csproj",
+        "packagesPath": "/Users/aldair/.nuget/packages/",
+        "outputPath": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aldair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Infrastructure/KardexQueryService.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Infrastructure/KardexQueryService.Infrastructure.csproj",
+        "projectName": "KardexQueryService.Infrastructure",
+        "projectPath": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Infrastructure/KardexQueryService.Infrastructure.csproj",
+        "packagesPath": "/Users/aldair/.nuget/packages/",
+        "outputPath": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aldair/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Application/KardexQueryService.Application.csproj": {
+                "projectPath": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Application/KardexQueryService.Application.csproj"
+              },
+              "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Domain/KardexQueryService.Domain.csproj": {
+                "projectPath": "/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/KardexQueryService/KardexQueryService.Domain/KardexQueryService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

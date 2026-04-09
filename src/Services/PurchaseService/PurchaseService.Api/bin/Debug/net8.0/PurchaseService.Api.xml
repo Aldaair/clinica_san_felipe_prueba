@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PurchaseService.Api</name>
+    </assembly>
+    <members>
+        <member name="M:PurchaseService.Api.Controllers.PurchasesController.Create(PurchaseService.Application.Purchases.DTOs.CreatePurchaseRequest,System.Threading.CancellationToken)">
+            <summary>
+            Registra una nueva compra en el sistema.
+            </summary>
+            <param name="request">Datos necesarios para registrar la compra.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna la compra registrada correctamente.
+            </returns>
+            <response code="201">Compra registrada correctamente.</response>
+            <response code="400">La solicitud es inválida o el modelo enviado no cumple las validaciones.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:PurchaseService.Api.Controllers.PurchasesController.Cancel(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Cancela una compra registrada previamente.
+            </summary>
+            <param name="id">Identificador único de la compra.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna la compra actualizada con el estado de cancelación.
+            </returns>
+            <response code="200">Compra cancelada correctamente.</response>
+            <response code="404">No se encontró una compra con el identificador proporcionado.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:PurchaseService.Api.Controllers.PurchasesController.GetAll(System.Threading.CancellationToken)">
+            <summary>
+            Obtiene la lista de todas las compras registradas.
+            </summary>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna una colección con todas las compras registradas.
+            </returns>
+            <response code="200">Listado de compras obtenido correctamente.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+        <member name="M:PurchaseService.Api.Controllers.PurchasesController.GetById(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Obtiene el detalle de una compra por su identificador.
+            </summary>
+            <param name="id">Identificador único de la compra.</param>
+            <param name="cancellationToken">Token de cancelación de la solicitud.</param>
+            <returns>
+            Retorna la información de la compra solicitada.
+            </returns>
+            <response code="200">Compra encontrada correctamente.</response>
+            <response code="404">No se encontró una compra con el identificador proporcionado.</response>
+            <response code="500">Error interno del servidor.</response>
+        </member>
+    </members>
+</doc>

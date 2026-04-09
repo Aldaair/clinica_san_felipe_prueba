@@ -1,0 +1,15 @@
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Application/bin/Debug/net8.0/SalesService.Application.deps.json
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Application/bin/Debug/net8.0/SalesService.Application.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Application/bin/Debug/net8.0/SalesService.Application.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Application/bin/Debug/net8.0/SalesService.Domain.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Application/bin/Debug/net8.0/SalesService.Domain.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Application/obj/Debug/net8.0/SalesService.Application.csproj.AssemblyReference.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Application/obj/Debug/net8.0/SalesService.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Application/obj/Debug/net8.0/SalesService.Application.AssemblyInfoInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Application/obj/Debug/net8.0/SalesService.Application.AssemblyInfo.cs
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Application/obj/Debug/net8.0/SalesService.Application.csproj.CoreCompileInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Application/obj/Debug/net8.0/SalesSer.11F001D6.Up2Date
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Application/obj/Debug/net8.0/SalesService.Application.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Application/obj/Debug/net8.0/refint/SalesService.Application.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Application/obj/Debug/net8.0/SalesService.Application.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SalesService/SalesService.Application/obj/Debug/net8.0/ref/SalesService.Application.dll

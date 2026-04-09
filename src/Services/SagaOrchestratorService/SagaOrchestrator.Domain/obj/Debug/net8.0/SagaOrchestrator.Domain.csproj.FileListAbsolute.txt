@@ -1,0 +1,11 @@
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Domain/bin/Debug/net8.0/SagaOrchestrator.Domain.deps.json
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Domain/bin/Debug/net8.0/SagaOrchestrator.Domain.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Domain/bin/Debug/net8.0/SagaOrchestrator.Domain.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Domain/obj/Debug/net8.0/SagaOrchestrator.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Domain/obj/Debug/net8.0/SagaOrchestrator.Domain.AssemblyInfoInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Domain/obj/Debug/net8.0/SagaOrchestrator.Domain.AssemblyInfo.cs
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Domain/obj/Debug/net8.0/SagaOrchestrator.Domain.csproj.CoreCompileInputs.cache
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Domain/obj/Debug/net8.0/SagaOrchestrator.Domain.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Domain/obj/Debug/net8.0/refint/SagaOrchestrator.Domain.dll
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Domain/obj/Debug/net8.0/SagaOrchestrator.Domain.pdb
+/Users/aldair/Desktop/Proyectos/clinica_san_felipe/src/Services/SagaOrchestratorService/SagaOrchestrator.Domain/obj/Debug/net8.0/ref/SagaOrchestrator.Domain.dll
